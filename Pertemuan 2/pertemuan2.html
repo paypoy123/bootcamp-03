@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Latihan CSS</title>
+        <!-- Metode External CSS -->
+        <link rel="stylesheet" href="latihan.css">
+        <!-- Metode Internal CSS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <style>
+            p {
+                color: grey;
+                font-size: 24px;
+            }
+
+            .paraf {
+                color: black;
+                font-size: 10px;
+                font-style: italic;
+            }
+
+            #satu, #dua, .coba {
+                color: salmon;
+            }
+
+            .test {
+                text-align: center;
+            }
+
+            .bg-kuning {
+                background-color: yellowgreen;
+                font-family: 'Dancing Script', cursive;
+            }
+
+            /* Pseudo class */
+            .bg-kuning:hover {
+                background-color: blue;
+                font-size: 60px;
+            }
+
+            li:active {
+                font-size: 40px;
+            }
+        </style>
+</head>
+<body>
+    <!-- Metode Inline CSS  -->
+    <h1 class="bg-kuning" style="color: red;">Hallo Dunia</h1>
+    
+    <!-- Metode Internal CSS -->
+    <p>Welcome to my side</p>
+    <p class="paraf">Ini paragraf</p>
+    <p class="paraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, odio.</p>
+    <p class="coba">ini apa aku ga tau?</p>
+    
+    <ul>
+        <li id="satu">satu</li>
+        <li id="dua">dua</li>
+        <li>tiga</li>
+    </ul>
+
+    <!-- Metode External -->
+    <a href="">Link</a>
+
+    <p class="paraf test bg-kuning">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum quos earum quae nam quidem iusto reiciendis, fuga perspiciatis ad? Ipsum praesentium possimus officia id. Aperiam natus optio quae cumque doloremque.</p>
+</body>
+</html>
