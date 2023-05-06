@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Positioning</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid red;
+    width: 500px;
+    margin: auto;
+    margin-top: 100;
+    position: relative;
+}
+/* 
+    position :
+    1. absolute
+    2. relative
+    3. statik = default
+    4. fixed
+*/
+
+.k1 {
+    width: 100px;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.k2 {
+    width: 100px;
+    height: 200px;
+    background-color: salmon;
+    /* position: absolute; */
+    /* top, right, left, bottom */
+    right: 0;
+    left: 0;
+    /* position: relative */
+    /* transform: translate3d(10px); */
+    box-shadow: 2px 2px 14px black 70px;
+}
+
+.k3 {
+    width: 100px;
+    height: 200px;
+    background-color: yellow;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="k1"></div>
+        <div class="k2"></div>
+        <div class="k3"></div>
+    </div>
+</body>
+</html>
