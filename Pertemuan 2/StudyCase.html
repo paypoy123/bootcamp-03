@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>StudyCase2</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+     }
+
+     body {
+        height: 2000px;
+     }
+
+     nav {
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        background-color: rgb(223, 19, 80);
+        padding-top: 30px;
+        padding-left: 40px;
+        position: fixed;
+        
+     }
+
+     .nav-list {
+        display: inline-block;
+     }
+
+    h1 {
+        margin-right: 30px;
+     }
+
+     li {
+        margin-right: 50px;
+    }
+
+   
+     .dropdown {
+        position: relative;
+        cursor: pointer;
+     }
+
+     .dropdown:hover .drop {
+        display: block;
+     }
+
+     .drop {
+        width: 200;
+        height: 100;
+        position: absolute;
+        padding: 10px;
+        background-color: white;
+        list-style: none;
+        box-shadow: 0px 0px 14px rgba(0, 0, 0, 40%)
+        ;
+        display: none;
+     }
+</style>
+</head>
+<body>
+    <nav>
+        <h1 class="nav-list">Navbar</h1>
+        <ul class="nav-list">
+            <li class="nav-list">Home</li>
+            <li class="nav-list">About</li>
+            <li class="nav-list dropdown">
+                Link
+                <ul class="drop">
+                    <li><a href=""></a>Link 1</li>
+                    <li><a href=""></a>Link 2</li>
+                    <li><a href=""></a>Link 3</li>
+                 </ul>
+                </li>
+        </ul>
+    </nav>
+    </div>
+</body>
+</html>
