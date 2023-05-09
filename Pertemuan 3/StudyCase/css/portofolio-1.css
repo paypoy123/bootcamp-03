@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, #7ADAE8 0%, #0BA1DD 100%);
+}
+
+.nav {
+    position: absolute;
+    width: 193px;
+    height: 58px;
+    left: 77px;
+    top: 48px;
+
+    font-family: 'Inter-SemiBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+}
+
+li {
+    font-family: 'Inter-Thin-BETA';
+    font-style: normal;
+    list-style: none;
+}
+
+.home {
+    position: absolute;
+    width: 82px;
+    height: 29px;
+    left: 380px;
+    top: 63px;
+    list-style: none;
+        
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+}
+
+.contact {
+    position: absolute;
+    width: 90px;
+    height: 29px;
+    left: 515px;
+    top: 63px;
+    list-style: none;
+    
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.about {
+    position: absolute;
+    width: 82px;
+    height: 29px;
+    left: 658px;
+    top: 63px;
+
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.teks {
+    position: absolute;
+    width: 719px;
+    height: 232px;
+    left: 77px;
+    top: 354px;
+
+    font-family: 'Inter-SemiBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 116px;
+
+    color: #FFFFFF;
+}
+
+.teks2 {
+    position: absolute;
+    width: 773px;
+    height: 48px;
+    left: 83px;
+    top: 600px;
+
+    font-family: 'Inter-Thin-BETA';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.botton {
+    position: absolute;
+    width: 227px;
+    height: 61px;
+    left: 83px;
+    top: 707px;
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    line-height: 61px;
+
+    color: #0BA1DD;
+}
+
+.botton2 {
+    position: absolute;
+    width: 227px;
+    height: 61px;
+    left: 326px;
+    top: 707px;
+
+    border: 3px solid #FFFFFF;
+    border-radius: 8px;
+
+    font-family: 'Inter-Thin-BETA';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    line-height: 57px;
+
+    color: #FFFFFF;
+}
+
+img {
+    position: absolute;
+    width: 712px;
+    height: 712px;
+    left: 728px;
+    top: 312px;
+}
